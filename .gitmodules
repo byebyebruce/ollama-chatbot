@@ -1,0 +1,3 @@
+[submodule "ollamax"]
+	path = ollamax
+	url = git@github.com:byebyebruce/ollamax.git

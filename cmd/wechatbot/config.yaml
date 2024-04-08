@@ -1,0 +1,10 @@
+chat: # 聊天设置
+  model: qwen # qwen:0.5b qwen:1.8b qwen:4b qwen:8b gemma gemma:7b mistral (https://ollama.com/library)
+  max_history: 20 # 最大历史记录数
+  system_prompt: 你是AI助手，你要尽力回答用户提出的任何问题。
+
+lark: # 个人微信聊天机器人
+  group_suffix: "-AIChat" # 以这个后缀的群聊才会触发聊天
+  filter_prefix: "" # 聊天内容过滤前缀, 为空则不过滤
+  trigger_prefix: "" # 聊天内容触发前缀, 为空则所有触发
+  msg_tmpl: "[🤖]:@{{.SenderName}}\n{{.Content}}" # 机器人回复消息模板

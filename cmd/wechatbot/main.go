@@ -19,7 +19,7 @@ import (
 
 var (
 	configPath  = flag.String("config", "config.yaml", "config file path")
-	storagePath = flag.String("wx", "wechat_login.yaml", "wx storage file path")
+	storagePath = flag.String("wx", "login_cache.json", "wx storage file path")
 	db          = flag.String("db", "wechat_bot.db", "db file")
 )
 

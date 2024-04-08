@@ -2,5 +2,5 @@ init:
 	git submodule update --init --depth 1 ollamax
 	make -C ollamax
 
-build:
+build: init
 	go build ./cmd/...

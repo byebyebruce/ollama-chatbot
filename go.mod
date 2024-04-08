@@ -3,7 +3,7 @@ module github.com/byebyebruce/ollama-chatbot
 go 1.22.0
 
 require (
-	github.com/byebyebruce/ollamax v0.0.0-20240402091114-d34c9e902cc9
+	github.com/byebyebruce/ollamax v0.0.0-20240408064245-ab959d943a2c
 	github.com/eatmoreapple/openwechat v1.4.6
 	github.com/gin-gonic/gin v1.9.1
 	github.com/larksuite/oapi-sdk-go/v3 v3.2.2

@@ -43,3 +43,4 @@ go.work.sum
 go.sum
 
 *.db
+login_cache.json

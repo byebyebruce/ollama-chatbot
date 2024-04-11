@@ -3,4 +3,4 @@ init:
 	make -C ollamax
 
 build: init
-	go build ./cmd/...
+	go build .

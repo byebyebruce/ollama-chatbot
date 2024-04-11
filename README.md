@@ -16,10 +16,21 @@ Ollama已经做的足够好了，但对小白来说还不够简单。 先要Olla
 ## 架构图
 ![](doc/doc.drawio.svg)
 
-## 使用
-TODO
+
+## 微信聊天机器人使用
+1. 下载可执行程序
+2. 启动服务(如果模型不存在会自动下载模型)
+3. 扫码登陆(模型加载完自动弹出浏览器扫码页面)
+4. 建立个群，群后名字后面加上 -AIChat
+![](doc/group.png)
+5. 群内有人说话，机器人会已你的身份自动回复
+![](doc/chat.png)
+
+## 飞书机器人使用
+使用方式类似，需要在config.yaml里配置[飞书app](https://open.feishu.cn/app)的app_id和app_secret等
 
 ## 编译
+go
 ```bash
 make build
 ```
